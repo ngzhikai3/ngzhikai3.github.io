@@ -1,12 +1,12 @@
 #container {
-  background-color: rgb(146, 153, 153);
+  background-color: rgb(13, 201, 248);
   max-width: 1200px;
   padding: 10px;
   margin: auto;
 }
 
 .header {
-  background-color: white;
+  background-color: grey;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 #topnav{
-  background-color: white;
+  background-color: grey;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -54,20 +54,16 @@
 }
 
 #h1{
-  background-color: white;
-  border: 5px solid black;
   margin-right: 10px;
   width: 50%;
 }
 
 #h2{
-  background-color: white;
-  border: 5px solid black;
   width: 50%;
 }
 
 .box2{
-  background-color: white;
+  background-color: grey;
   border: 5px solid black;
 }
 
