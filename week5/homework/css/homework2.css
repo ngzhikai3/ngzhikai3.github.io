@@ -23,12 +23,11 @@
 .header2 {
   display: flex;
   flex-direction: column;
-  text-align: right;
+  width: 50%;
 }
 
 #phone {
   padding: 3px 3px 3px 3px;
-  border: black solid 3px;
   margin-bottom: 30px;
   color: white;
 }
@@ -36,9 +35,10 @@
 .topnav {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: rgb(177, 189, 189);
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .topnav a {
@@ -99,22 +99,24 @@
   background-color: #717171;
 }
 
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
 .content {
-  background-color: #bbb;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
   margin-top: 30px;
 }
 
-#sidebar {
-  width: 25%;
+#text{
+  width: 60%;
   border: black solid 3px;
+  background-color: #bbb;
+}
+
+#sidebar {
+  width: 30%;
+  border: black solid 3px;
+  background-color: #bbb;
 }
 
 #sidebar a {
@@ -142,7 +144,4 @@
       width: 100%;
   }
 
-  .topnav {
-      flex-wrap: wrap;
-  }
 }

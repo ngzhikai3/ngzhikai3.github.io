@@ -6,15 +6,17 @@
     <title>Homework 2</title>
 
     <link href="css/homework2.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
 <body>
 
     <div id="container">
+
         <div class="header">
-            <div id="icon">
-                <img src="../image/icon.jpg" width="30%"/>
+            <div>
+                <img src="../image/icon.jpg" />
             </div>
 
             <div class="header2">
@@ -23,10 +25,12 @@
                 </div>
 
                 <div class="topnav">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                    <a href="#">Link 4</a>
+                    <div>
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,32 +38,32 @@
         <div class="slideshow-container">
 
             <div class="mySlides fade">
-              <img src="../image/pic1.jpg" style="width:100%">
+                <img src="../image/pic1.jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides fade">
-              <img src="../image/pic2.jpg" style="width:100%">
+                <img src="../image/pic2.jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides fade">
-              <img src="../image/pic3.jpg" style="width:100%">
+                <img src="../image/pic3.jpg" style="width:100%">
             </div>
 
             <div class="mySlides fade">
                 <img src="../image/pic4.jpg" style="width:100%">
             </div>
-            
+
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
-            
-            </div>
-            
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-              <span class="dot" onclick="currentSlide(4)"></span> 
-            </div>  
+
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
 
         <div class="content">
 

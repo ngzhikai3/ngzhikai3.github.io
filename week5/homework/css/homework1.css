@@ -17,7 +17,7 @@
   color: white;
   padding: 3px 3px 3px 3px;
   border: black solid 3px;
-  
+
 }
 
 .topnav {
@@ -32,38 +32,28 @@
 .topnav a {
   color: white;
   text-align: center;
-  padding: 14px 16px;/*num1=top num2=right num3=bottom num4=left*/ 
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Links - change color on hover */
 .topnav a:hover {
   background-color: rgb(0, 191, 255);
   color: rgb(16, 62, 153);
   text-decoration: underline;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+* {
+  box-sizing: border-box
 }
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -78,18 +68,16 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -101,24 +89,9 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
 }
 
 .feat {
@@ -126,31 +99,39 @@ img {vertical-align: middle;}
   margin-bottom: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.feat2{
-  text-align: center;
-  width: 25%;
-  border-style: solid;
+.feat2 {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .content {
-  background-color: #bbb;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#text {
+  width: 60%;
+  border: black solid 3px;
+  background-color: #bbb;
 }
 
 #sidebar {
-  width: 25%;
+  width: 30%;
   border: black solid 3px;
-  text-align: center;
+  background-color: #bbb;
 }
 
 #sidebar a {
   flex-direction: column;
   color: white;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -160,4 +141,15 @@ img {vertical-align: middle;}
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  #text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #sidebar {
+    width: 100%;
+  }
 }
