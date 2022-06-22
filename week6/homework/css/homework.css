@@ -846,6 +846,107 @@
     margin-top: -8px;
 }
 
+@media screen and (max-width: 1024px) {
+    .grid-container {
+        background-size: 550px;
+        max-height: 1200px;
+    }
+
+    .item1 {
+        margin-left: 50px;
+        width: 400px;
+    }
+
+    .item2 {
+        margin-left: 0;
+        display: flex;
+        justify-content: left;
+        margin-left: 50px;
+    }
+
+    .item3 {
+        width: 500px;
+    }
+
+    .item4 {
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .item5 {
+        width: 350px;
+        margin-left: 50px;
+    }
+
+    .item6 {
+        width: 500px;
+    }
+
+    .grid-container2>div {
+        padding: 0;
+    }
+
+    .item7 {
+        margin-left: 50px;
+    }
+
+    .item8 {
+        width: 300px;
+        font-size: small;
+        left: 20px;
+    }
+
+    .item9 {
+        width: 300px;
+        font-size: small;
+        margin-right: 60px;
+    }
+
+    .item10 {
+        width: 300px;
+        font-size: small;
+        right: 0;
+    }
+
+    .item11 {
+        width: 300px;
+        font-size: small;
+        left: 20px;
+    }
+
+    .item12 {
+        width: 300px;
+        font-size: small;
+        margin-right: 60px;
+    }
+
+    .item13 {
+        width: 300px;
+        font-size: small;
+        right: 0;
+    }
+
+    .item15 {
+        width: 300px;
+        left: 20px;
+    }
+
+    .item16 {
+        width: 300px;
+        margin-right: 250px;
+    }
+
+    .item17 {
+        width: 300px;
+        right: 20px;
+    }
+
+    .grid-container4 {
+        background-size: 2300px 1600px, 2000px 1500px;
+        background-position: 50% 10%, 100% 20%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .grid-container {
         display: flex;
@@ -854,9 +955,21 @@
         background-position: top;
     }
 
+    .box1 {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
     .item1 {
         margin-right: 50px;
         margin-left: 0;
+    }
+
+    .mouse {
+        display: none;
     }
 
     .item4 {
@@ -1046,6 +1159,18 @@
     .item1 {
         margin-right: 50px;
         margin-left: 0;
+    }
+
+    .box1 {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+    .mouse {
+        display: none;
     }
 
     .item4 {
