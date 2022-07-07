@@ -1,0 +1,15 @@
+
+form {
+    background-color: rgb(177, 255, 229);
+    width: 400px;
+    margin: auto;
+}
+
+.email {
+    display: flex;
+    gap: 5px;
+}
+
+#submit {
+    margin-left: 40%;
+}
