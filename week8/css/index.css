@@ -1,6 +1,7 @@
 
 form {
     background-color: rgb(177, 255, 229);
+    color: rgb(4, 97, 4);
     width: 400px;
     margin: auto;
 }
@@ -20,3 +21,12 @@ form {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+::placeholder,select {
+    color: rgb(4, 97, 4);
+}
+
+input[type=text],select {
+    border: 1px solid rgb(4, 97, 4);
+  }
+
