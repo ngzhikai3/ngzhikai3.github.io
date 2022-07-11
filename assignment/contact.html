@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Contact</title>
+
+    <link href="css/contact.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/91b33330fa.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">HOME</a>
+            <a href="#">2020</a>
+            <a href="#">2021</a>
+            <a href="#">2022</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+
+        <div id="logo">
+            <img src="images/logo-removebg-preview.png" width="30px" height="30px" />
+        </div>
+
+        <div>
+            <a href="#home">HOME</a>
+            <a href="#2020">2020</a>
+            <a href="#2021">2021</a>
+            <a href="#2022">2022</a>
+            <a href="#contact">CONTACT</a>
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="background"></div>
+
+    <div id="title">
+        <p>CONTACT US</p>
+    </div>
+
+    <div class="form">
+        <div id="form">
+            <form name="myForm" action="">
+
+                NAME :<br>
+                <input type="text" name="Name" required>
+                <br><br>
+
+                EMAIL :<br>
+                <input type="text" name="Email" required>
+                <br><br>
+
+                PHONE :<br>
+                <input type="text" name="Phone" required>
+                <br><br>
+
+                MESSAGE :<br>
+                <input type="text" name="Message" required id="message">
+                <br><br>
+
+                <input type="submit" value="SEND" id="submit">
+
+            </form>
+        </div>
+
+        <div id="contactme">
+            <div class="contact">
+                <h1>EMAIL</h1>
+                <a href="mailto:ngzhikai0308@e.newera.edu.my" class="mail">ngzhikai0308@e.newera.edu.my</a>
+            </div>
+
+            <div class="contact">
+                <h1>Phone</h1>
+                <p>017-6557328</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <h1>Overview</h1>
+        </div>
+
+        <div id="footer">
+            <a href="#">HOME</a>
+            <a href="#">2020</a>
+            <a href="#">2021</a>
+            <a href="#">2022</a>
+            <a href="#">CONTACT</a>
+        </div>
+
+        <div id="f3">
+            <a href="https://www.facebook.com/"><img src="images/asset-1@2x.png" width="18px" height="36px"></a>
+
+            <a href="https://twitter.com/KingJames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                    src="images/asset-2@2x.png" width="47px" height="37px"></a>
+
+            <a href="https://www.instagram.com/kingjames"><img src="images/instagram-1@2x.png" width="34px"
+                    height="34px"></a>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    
+</body>
+
+</html>
