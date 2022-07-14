@@ -192,6 +192,11 @@ body {
     max-width: 100%;
 }
 
+.section4{
+    width: 100%;
+    max-width: 100%;
+}
+
 .box4 {
     display: flex;
     flex-direction: row;
@@ -318,6 +323,10 @@ body {
     }
 
     .section3{
+        width: 100%;
+    }
+
+    .section4{
         width: 100%;
     }
 
