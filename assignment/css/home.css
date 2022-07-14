@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
 }
 
 .topnav a {
@@ -110,6 +111,7 @@ body {
 .box1 {
     background: #0044AD;
     padding: 50px;
+    max-width: 100%;
 }
 
 .content1 p {
@@ -147,6 +149,7 @@ body {
 
 .box2 {
     padding: 50px;
+    max-width: 100%;
 }
 
 #kobe {
@@ -185,12 +188,14 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    max-width: 100%;
 }
 
 .box4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .footer {
@@ -206,6 +211,7 @@ body {
 #footer {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 #footer a {
@@ -264,9 +270,14 @@ body {
     }
 
     .background {
+        width: 100%;
         height: 400px;
         background-image: url(../images/menu.jpg);
         background-size: 600px 400px;
+    }
+
+    .box1 {
+        width: 100%;
     }
 
     #ko {
@@ -276,6 +287,10 @@ body {
 
     #ko img {
         max-width: 400px;
+    }
+
+    .box2 {
+        width: 100%;
     }
 
     #kobe {
@@ -296,9 +311,15 @@ body {
         margin-right: 0;
     }
 
+    .box3 {
+        width: 100%;
+    }
+
     .box4 {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .box4 img {
@@ -306,6 +327,7 @@ body {
     }
 
     #footer {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
