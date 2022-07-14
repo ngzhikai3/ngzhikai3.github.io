@@ -310,9 +310,14 @@ body {
 
     .content2 {
         margin-right: 0;
+        width: 100%;
     }
 
     .box3 {
+        width: 100%;
+    }
+
+    .section3{
         width: 100%;
     }
 
