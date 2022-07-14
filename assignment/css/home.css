@@ -274,7 +274,7 @@ body {
     }
 
     #ko img {
-        width: 500px;
+        max-width: 400px;
     }
 
     #kobe {
@@ -283,7 +283,7 @@ body {
     }
 
     #kobe img {
-        width: 500px;
+        max-width: 400px;
     }
 
     .content3 {
@@ -301,7 +301,7 @@ body {
     }
 
     .box4 img {
-        width: 600px
+        max-width: 400px
     }
 
     #footer {
