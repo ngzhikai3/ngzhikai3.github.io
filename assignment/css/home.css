@@ -125,6 +125,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .content2 {
@@ -151,6 +152,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .content3 {
@@ -187,6 +189,7 @@ body {
 .box4 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footer {
