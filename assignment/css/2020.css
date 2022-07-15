@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: auto;
     max-width: 1550px;
 }
 
@@ -93,6 +93,7 @@ body {
     background-image: url(../images/home2020.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 800px;
 }
 
@@ -112,8 +113,6 @@ body {
     line-height: 45px;
     color: #FFFFFF;
     margin: 0;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .box1 {
@@ -226,7 +225,7 @@ body {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 35px;
     line-height: 45px;
 }
 
