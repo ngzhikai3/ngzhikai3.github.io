@@ -213,6 +213,18 @@ body {
     max-width: 100%;
 }
 
+.content5 {
+    margin-left: 100px;
+    width: 500px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 45px;
+    color: #212121;
+    display: flex;
+    align-items: center;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -285,14 +297,8 @@ body {
     }
 
     .background {
-        width: 100%;
         height: 400px;
         background-image: url(../images/menu.jpg);
-        background-size: 600px 400px;
-    }
-
-    .box1 {
-        width: 100%;
     }
 
     #ko {
@@ -301,11 +307,7 @@ body {
     }
 
     #ko img {
-        max-width: 400px;
-    }
-
-    .box2 {
-        width: 100%;
+        max-width: 300px;
     }
 
     #kobe {
@@ -314,20 +316,21 @@ body {
     }
 
     #kobe img {
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .content3 {
-        margin-left: 50px;
+        margin-left: 0;
         width: 600px;
+    }
+
+    .content5 {
+        padding: 10px;
+        margin-left: 0;
     }
 
     .content2 {
         margin-right: 0;
-        width: 100%;
-    }
-
-    .box3 {
         width: 100%;
     }
 
@@ -341,7 +344,6 @@ body {
     }
 
     .box4 {
-        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -352,7 +354,6 @@ body {
     }
 
     #footer {
-        width: 100%;
         display: flex;
         flex-direction: column;
     }
