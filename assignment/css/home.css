@@ -134,6 +134,10 @@ body {
     flex-wrap: wrap;
 }
 
+#ko img{
+    max-width: 500px;
+}
+
 .content2 {
     width: 500px;
     display: flex;
@@ -160,6 +164,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#kobe img{
+    max-width: 500px;
 }
 
 .content3 {
@@ -200,22 +208,22 @@ body {
     flex-direction: column;
     margin-left: 100px;
     text-align: center;
+    align-items: center;
 }
 
 .section3 img{
-    width: 40%;
+    max-width: 350px;
 }
 
 .box4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100%;
+    justify-content: center;
 }
 
 .content5 {
-    margin-left: 100px;
-    width: 500px;
+    width: 60%;
     font-family: 'Epilogue';
     font-style: normal;
     font-size: 20px;
@@ -223,6 +231,8 @@ body {
     color: #212121;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .footer {
@@ -234,10 +244,10 @@ body {
     padding: 50px;
 }
 
-
 #footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     max-width: 100%;
 }
 
@@ -297,7 +307,7 @@ body {
     }
 
     .background {
-        height: 400px;
+        height: 200px;
         background-image: url(../images/menu.jpg);
     }
 
@@ -325,6 +335,7 @@ body {
     }
 
     .content5 {
+        width: 100%;
         padding: 10px;
         margin-left: 0;
     }
@@ -350,7 +361,7 @@ body {
     }
 
     .box4 img {
-        max-width: 400px
+        max-width: 100%
     }
 
     #footer {
