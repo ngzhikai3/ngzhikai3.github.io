@@ -283,6 +283,10 @@ body {
         text-align: left;
     }
 
+    #logo a{
+        display: flex;
+    }
+
     .background {
         height: 400px;
         background-image: url(../images/home2020.jpg);
