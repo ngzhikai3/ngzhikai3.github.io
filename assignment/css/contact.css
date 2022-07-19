@@ -148,6 +148,10 @@ form {
     font-size: 50px;
 }
 
+textarea {
+    max-width: 710px;
+}
+
 input[type=text] {
     max-width: 700px;
 }
