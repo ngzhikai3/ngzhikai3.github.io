@@ -3,6 +3,18 @@ body {
     max-width: 1550px;
 }
 
+a {
+    font-family: "Audiowide", sans-serif;
+}
+
+h1 {
+    font-family: 'Edu NSW ACT Foundation';
+}
+
+p {
+    font-family: "Quicksand";
+}
+
 .topnav {
     overflow: hidden;
     background-color: #99EBFF;
@@ -15,7 +27,6 @@ body {
     float: left;
     display: block;
     color: black;
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -113,7 +124,6 @@ body {
 }
 
 .section1 p {
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -148,7 +158,6 @@ body {
 }
 
 .box1 p {
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -175,7 +184,6 @@ body {
 }
 
 .section3 h1 {
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -185,7 +193,6 @@ body {
 }
 
 .section3 p {
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -219,7 +226,6 @@ body {
 }
 
 .score h1 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
@@ -250,7 +256,6 @@ body {
 }
 
 .box2 p {
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -285,7 +290,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Epilogue';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
