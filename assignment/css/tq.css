@@ -37,6 +37,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+    width: 100%;
 }
 
 .topnav a {
@@ -128,6 +130,8 @@ p {
 #footer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 #footer a {
