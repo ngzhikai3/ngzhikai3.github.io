@@ -177,6 +177,10 @@ p {
         text-align: left;
     }
 
+    .background {
+        height: 300px;
+    }
+
     .score h1 {
         font-size: 5rem;
     }
