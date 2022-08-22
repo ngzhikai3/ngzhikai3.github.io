@@ -118,6 +118,10 @@ p {
     background: #0044AD;
 }
 
+#mvp2019 img{
+    max-width: 600px;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
