@@ -1,0 +1,61 @@
+.item1 { grid-area: blogmenu; }
+.item2 { grid-area: logo; }
+.item3 { grid-area: phone; }
+.item4 { grid-area: menu; }
+.item5 { grid-area: slideshow; }
+.item6 { grid-area: sidebar; }
+.item7 { grid-area: textcontent; }
+.item8 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'blogmenu blogmenu blogmenu blogmenu'
+    'logo logo 3 phone'
+    'logo logo menu menu'
+    'slideshow slideshow slideshow sidebar'
+    'textcontent textcontent textcontent sidebar'
+    'footer footer footer footer';
+  gap: 10px;
+  background-color: grey;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  height: 50px;
+}
+
+.item2 {
+  height: 110px;
+}
+
+.item3 {
+  height: 20px;
+}
+
+.item4 {
+  height: 30px;
+}
+
+.item5 {
+  height: 200px;
+}
+
+.item6 {
+  height: 550px;
+}
+
+.item7 {
+  height: 300px;
+}
+
+.item8 {
+  height: 100px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Contact</title>
+
+    <link href="css/contact.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="images/icon.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Edu NSW ACT Foundation">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/91b33330fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body class="mx-auto">
+
+    <div class="container-fluid p-0" style="overflow-x: hidden;">
+
+        <div id="myNav" class="overlay">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="2020.html">2020 GAMES</a>
+                <a href="2021.html">2021 GAMES</a>
+                <a href="2022.html">2022 GAMES</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </div>
+
+        <div class="d-flex" id="topnav">
+            <div class="d-flex align-items-center">
+                <a href="index.html"><img src="images/logo.png" height="50px"></a>
+            </div>
+
+            <div class="topnav d-flex justify-content-end" id="myTopnav">
+                <div>
+                    <a href="index.html">HOME</a>
+                    <a href="2020.html">2020 GAMES</a>
+                    <a href="2021.html">2021 GAMES</a>
+                    <a href="2022.html">2022 GAMES</a>
+                    <a href="contact.html">CONTACT</a>
+                    <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="background"></div>
+
+    <div id="title">
+        <p>CONTACT US</p>
+    </div>
+
+    <div class="form">
+        <div id="form" data-aos="flip-right">
+            <form name="myForm" action="tq.html">
+
+                NAME :<br>
+                <input type="text" name="Name" required>
+                <br><br>
+
+                EMAIL :<br>
+                <input type="email" name="Email" required>
+                <br><br>
+
+                PHONE :<br>
+                <input type="phone" name="Phone" required>
+                <br><br>
+
+                MESSAGE :<br>
+                <textarea name="Message" ></textarea>
+                <br><br>
+
+                <input type="submit" value="SEND" id="submit">
+
+            </form>
+        </div>
+
+        <div id="contactme">
+            <div class="contact" data-aos="fade-left">
+                <h1>EMAIL</h1>
+                <a href="mailto:ngzhikai0308@e.newera.edu.my" class="mail">ngzhikai0308@e.newera.edu.my</a>
+            </div>
+
+            <div class="contact" data-aos="fade-right">
+                <h1>PHONE</h1>
+                <a href="tel:017-6557328">017-6557328</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div id="footer">
+            <a href="index.html">HOME</a>
+            <a href="2020.html">2020 GAMES</a>
+            <a href="2021.html">2021 GAMES</a>
+            <a href="2022.html">2022 GAMES</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+
+        <div>
+            <a href="https://www.facebook.com/"><img src="images/fblogo.png"></a>
+
+            <a href="https://twitter.com/KingJames?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                    src="images/twitterlogo.png"></a>
+
+            <a href="https://www.instagram.com/kingjames"><img src="images/instagram.png"></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+
+</html>

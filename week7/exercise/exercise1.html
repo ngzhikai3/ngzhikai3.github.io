@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Exercise 1</title>
+
+    <link href="css/e1.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/91b33330fa.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-basketball" id="icon"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+    </div>
+
+    <script>
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            var icon = document.getElementById("icon");
+            if (icon.className === "fa-solid fa-basketball") {
+                icon.className = " fa fa-times";
+            } else {
+                icon.className = "fa-solid fa-basketball";
+            }
+        }
+    </script>
+
+</body>
+
+
+
+</html>

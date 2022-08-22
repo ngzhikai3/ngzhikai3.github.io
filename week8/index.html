@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Form</title>
+
+    <link href="css/index.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <form name="myForm" action="index2.html">
+        <fieldset>
+            <legend>Farmer Registration Form</legend>
+            Name<br>
+            <input type="text" name="first" placeholder="First" required>
+            <input type="text" name="last" placeholder="Last" required><br><br>
+
+            <div class="email">
+                <div>
+                    Email<br>
+                    <input type="text" name="email" required>
+                </div>
+
+                <div>
+                    Phone<br>
+                    <input type="text" name="phone" placeholder="### ### ####">
+                </div>
+            </div>
+
+
+            Gender:<br>
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label for="gender">Male</label>
+
+            <input type="radio" id="gender2" name="gender" value="Female">
+            <label for="gender2">Female</label><br><br>
+
+            Former Address<br>
+            <input type="text" name="Street Address" placeholder="Street Address"><br><br>
+            <input type="text" name="Street Address Line 2" placeholder="Street Address Line 2"><br><br>
+
+            <input type="text" name="City" placeholder="City">
+            <input type="text" name="Region" placeholder="Region"><br><br>
+
+            <input type="text" name="Postol/Zip Code" placeholder="Postol/Zip Code">
+
+            <select id="Country" name="Country" class="form-control" required>
+                <option value="">-- Please Select --</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="China">China</option>
+                <option value="France">France</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Macao">Macao</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Oman">Oman</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Serbia">Serbia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Spain">Spain</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Thailand">Thailand</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+            </select>
+
+            <br><br>
+            <input type="submit" value="SEND" id="submit">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

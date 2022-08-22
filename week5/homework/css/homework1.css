@@ -1,0 +1,133 @@
+#container {
+  background-color: rgb(146, 153, 153);
+  max-width: 1000px;
+  padding: 10px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+#phone {
+  background-color: white;
+  color:#717171;
+  padding: 3px 3px 3px 3px;
+  border: black solid 3px;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: rgb(177, 189, 189);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: auto;
+}
+
+.topnav a:hover {
+  background-color: rgb(0, 191, 255);
+  color: rgb(16, 62, 153);
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.feat {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feat2 {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#text {
+  width: 60%;
+  border: black solid 3px;
+  background-color: #bbb;
+  color: white;
+}
+
+#sidebar {
+  width: 30%;
+  border: black solid 3px;
+  background-color: #bbb;
+}
+
+#sidebar a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #F1F1F1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: black solid 3px;
+}
+
+@media screen and (max-width: 600px) {
+  #text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #sidebar {
+    width: 100%;
+  }
+}

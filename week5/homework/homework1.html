@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework 1</title>
+
+    <link href="css/homework1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+    
+    <div id="container">
+        <div class="header">
+            <div>
+                <img src="../image/icon.jpg" width="150px" height="100px"/>
+            </div>
+            <div id="phone">
+                <h1>017-6557328</h1>
+            </div>
+        </div>
+
+        <div class="topnav">
+            <div>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 4</a>
+            </div>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="../image/pic1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="../image/pic2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="../image/pic3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="../image/pic4.jpg" style="width:100%">
+              </div>
+            
+            </div>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+
+            <div class="feat">
+                <div class="feat2" >
+                    <img src="../image/Lebron.jpg" >
+                </div>
+                <div class="feat2" >
+                    <img src="../image/kobe.jpg" >
+                </div>
+                <div class="feat2" >
+                    <img src="../image/luka.jpg" >
+                </div>
+                <div class="feat2" >
+                    <img src="../image/kyrie.jpg" >
+                </div>
+            </div>
+
+        <div class="content">
+        
+            <div id="text">
+               <p>The National Basketball Association is a professional basketball league in North America. The league is composed of 30 teams and is one of the major professional sports leagues in the United States and Canada. It is the premier men's professional basketball league in the world. </p>
+            </div>
+            
+            <div id="sidebar">
+                <div class="sidebar">
+                    <a href="#">Link 1</a>
+                </div>
+                <div class="sidebar">
+                    <a href="#">Link 2</a>
+                </div>
+                <div class="sidebar">
+                    <a href="#">Link 3</a>
+                </div>
+                <div class="sidebar">
+                    <a href="#">Link 4</a>
+                </div>
+            </div>
+         </div>
+
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); 
+        }
+    </script>
+
+</body>
+
+</html>
