@@ -1,0 +1,19 @@
+#toppic {
+    height: 600px;
+    background-image: url(../images/history/lofotenhistory.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.div1{
+    display: flex;
+        flex-wrap: wrap;
+}
+
+
+#container {
+  max-width: 1600px;  
+}
+
+

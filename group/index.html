@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Lofoten</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/same.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gothic A1">
+    <link rel="icon" type="image/x-icon" href="images/lofotenlogo.jpg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/91b33330fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid gx-0" id="container" style="overflow-x: hidden">
+        <header class="header-area">
+            <div class="container-fluid position-relative p-0" id="toppic">
+                <nav class="navbar navbar-expand-lg z-index-3 py-1 bg-secondary bg-opacity-50">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.png" width="100px" class="d-inline-block align-text-top">
+                        </a>
+    
+                        <button class="navbar-toggler bg-light bg-opacity-75" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+    
+                        <div class="offcanvas offcanvas-start d-xl-none d-lg-none w-100" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel"
+                            style="background-image: linear-gradient(to right, #FFFFFF, #5BBCBC);">
+                            <div class="offcanvas-header d-flex justify-content-end">
+                                <button type="button" class="btn-close fs-1 p-4" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body d-flex justify-content-center">
+                                <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                            role="button" href="about.html">
+                                            About
+                                        </a>
+                                    </li>
+    
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                            role="button" href="history.html">
+                                            History
+                                        </a>
+                                    </li>
+    
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                            role="button" href="accommodation.html">
+                                            Accommodation
+                                        </a>
+                                    </li>
+    
+                                    <li class="nav-item dropdown dropdown-hover mx-2 d-flex justify-content-center" style="padding-left: 15px;">
+                                        <div class="btn-group">
+                                            <button class="btn text-black border-0" type="button">
+                                                <a class="text-decoration-none text-black fs-5"
+                                                    href="activities.html">Activities</a>
+                                            </button>
+                                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item text-black fs-5" href="kayak.html">Kayak</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-black fs-5" href="surf.html">Surf</a></li>
+                                                <li><a class="dropdown-item text-black fs-5"
+                                                        href="snorkeling.html">Snorkeling</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+    
+                                    <li class="nav-item mx-2">
+                                        <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                            role="button" href="food.html">
+                                            Food
+                                        </a>
+                                    </li>
+    
+                                    <li class="nav-item dropdown dropdown-hover mx-2 d-flex justify-content-center" style="padding-left: 25px;">
+                                        <div class="btn-group">
+                                            <button class="btn text-black border-0" type="button">
+                                                <a class="text-decoration-none text-black fs-5"
+                                                    href="places.html">Places</a>
+                                            </button>
+                                            <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item text-black fs-5" href="trip.html">Plan Your
+                                                        Trip</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-black fs-5" href="vagan.html">Vagan</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-black fs-5"
+                                                        href="vestagoy.html">Vestvågøy</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-black fs-5"
+                                                        href="flakstad.html">Flakstad</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item d-lg-block m-3 pb-3 d-flex justify-content-center" style="padding-left: 25px;">
+                                        <a href="contact.html" class="text-white">
+                                            <button class="blue-button">
+                                                    <span class="circle" aria-hidden="true">
+                                                        <span class="icon arrow"></span>
+                                                    </span>
+                                                    Contact us</button></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0">
+                            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                <li class="nav-item mx-2 hover">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                        role="button" href="about.html">
+                                        About
+                                    </a>
+                                </li>
+    
+                                <li class="nav-item mx-2 hover">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                        role="button" href="history.html">
+                                        History
+                                    </a>
+                                </li>
+    
+                                <li class="nav-item mx-2 hover">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                        role="button" href="accommodation.html">
+                                        Accommodation
+                                    </a>
+                                </li>
+    
+                                <li class="nav-item dropdown dropdown-hover mx-2 hover">
+                                    <div class="btn-group">
+                                        <a class="text-decoration-none text-white" href="activities.html">
+                                        <button class="btn text-white border-0 pt-2" type="button">
+                                            Activities
+                                        </button></a>
+                                        <button type="button"
+                                            class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="kayak.html">Kayak</a></li>
+                                            <li><a class="dropdown-item" href="surf.html">Surf</a></li>
+                                            <li><a class="dropdown-item" href="snorkeling.html">Snorkeling</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+    
+                                <li class="nav-item mx-2 hover">
+                                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                        role="button" href="food.html">
+                                        Food
+                                    </a>
+                                </li>
+    
+                                <li class="nav-item dropdown dropdown-hover mx-2 hover">
+                                    <div class="btn-group">
+                                        <button class="btn text-white border-0 pt-2" type="button">
+                                            <a class="text-decoration-none text-white" href="places.html">Places</a>
+                                        </button>
+                                        <button type="button"
+                                            class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="trip.html">Plan Your Trip</a></li>
+                                            <li><a class="dropdown-item" href="vagan.html">Vagan</a></li>
+                                            <li><a class="dropdown-item" href="vestagoy.html">Vestvågøy</a></li>
+                                            <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+    
+                            <ul class="navbar-nav d-lg-block button-borders m-3">
+                                <li class="nav-item">
+                                    <a href="contact.html" class="text-white">
+                                        <button class="blue-button">
+                                                <span class="circle" aria-hidden="true">
+                                                    <span class="icon arrow"></span>
+                                                </span>
+                                                Contact us</button></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="section container-fluid gx-0 position-relative" id="top" data-section="section1">
+            <video autoplay muted loop id="bg-video">
+                <source src="video/The Lofoten Islands (4K) (1).mp4" type="video/mp4" />
+            </video>
+            <div class="container_mouse position-absolute bottom-0 start-50" id="mouse">
+                <a href="#content"><img src="images/scroll.png" class="bg-white rounded bg-opacity-75"></a>
+            </div>
+        </section>
+
+        <div class="container col-xxl-12" id="content" data-aos="fade-right">
+            <div class="row align-items-center py-5">
+                <div class="col-xl-6">
+                    <h3 class="text-center p-3 align-items-center">What's on in Lofoten?</h3>
+                    <p class="p-3 align-items-center">The cultural life in Lofoten is now among the very best in
+                        Norway.
+                        The
+                        magnificent
+                        nature is reason enough to visit Lofoten. By combining this with cultural events, you have
+                        the
+                        recipe
+                        for an experience of a lifetime. Lofoten has a wide range of experiences to suit all tastes
+                        and
+                        interests - all
+                        year round.</p>
+                </div>
+                <div class="container col-xl-6" data-aos="flip-right">
+                    <img src="images/home/lofoten.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 position-relative " id="bg-pic2" data-aos="fade-top">
+            <div class="container w-50 bg-secondary bg-opacity-50" id="history">
+                <h3 class="text-center p-3 text-white m-0">Lofoten History</h3>
+                <p class="text-center p-3 text-white">The Lofoten have been continuously inhabited since at
+                    least 1120. </p>
+            </div>
+            <button class="learn-more position-absolute start-50 translate-middle mt-2"><a href="history.html">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text text-white">Learn More</span></a>
+            </button>
+        </div>
+
+        <div class="container col-xxl-12">
+            <div class="row flex-lg-row-reverse align-items-center" data-aos="fade-left">
+                <h3 class="d-flex justify-content-center py-2 pt-5">Accommodation in Lofoten</h3>
+
+                <div class="col-lg-6 text-center">
+                    <p class="lead">"A good night's sleep plays an important role for the trip."</p>
+                </div>
+
+                <div class="container col-10 col-sm-8 col-lg-6">
+                    <img src="images/home/accommodation1.jpg" class="d-block mx-lg-auto img-fluid">
+                </div>
+            </div>
+
+            <div class="row flex-lg-row align-items-center mt-3 pb-5" data-aos="fade-right">
+                <div class="col-lg-6">
+                    <p class="lead text-center">"Moreover, accommodation is a big part of the experience."</p>
+                </div>
+
+                <div class="container col-10 col-sm-8 col-lg-6">
+                    <img src="images/home/accommodation2.jpg" class="d-block mx-lg-auto img-fluid">
+                </div>
+            </div>
+            <button class="learn-more position-absolute start-50 translate-middle pb-5"><a href="accommodation.html">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span></a>
+            </button>
+        </div>
+
+        <div class="container-fluid my-5 py-3" id="tips" data-aos="fade-top">
+            <div class="text-center bg-opacity-50 p-3">
+                <h1 class="text-white">Travel Tips</h1>
+            </div>
+
+            <div class="card w-50 m-3 p-3 pe-5" id="hmdays">
+                <div class="card-body p-3">
+                    <h3 class="card-title p-3">How many days do you need on the lofoten island?</h3>
+                    <p class="card-text p-3 mb-5">Here is good advice on how you as a guest can contribute to
+                        maintaining
+                        Lofoten's attractiveness and avoiding negative burdens. Tread carefully, and let those who
+                        come
+                        after you have equally good experiences!</p>
+                    <button class="learn-more position-absolute bottom-0 end-0 pb-3"><a href="trip.html">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Learn More</span></a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-3 position-relative my-3" data-aos="fade-top">
+            <h3 class="text-center p-3">Things To Do</h3>
+            <p class="text-center p-2"> Lofoten Islands is something that has to be seen to be believed. Here's the
+                things
+                about visiting this chain of islands located in Northern Norway. </p>
+        </div>
+
+        <div class="row flex-wrap align-items-center mx-5 p-lg-0 py-5" style="background-color: #e8c117;" data-aos="fade-left">
+            <div class="container col-xxl-4 col-lg-4 px-0 d-none d-lg-block d-xl-block d-xxl-block">
+                <img src="images/home/activities.jpg" class="img-fluid">
+            </div>
+            <div class="container col-xxl-4 col-lg-4 col-md-12 px-0 d-flex justify-content-center">
+                <img src="images/home/kayaklofoten.jpg" class="img-fluid" data-aos="flip-right">
+            </div>
+            <div class="col-xxl-4 col-lg-4 text-center">
+                <h3 class="py-2 text-white">Activities</h3>
+                <p class="pb-1 text-white">Be active in the world's most beautiful islands</p>
+                <button class="learn-more text-center pb-3"><a href="activities.html">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span></a>
+            </button>
+            </div>
+        </div>
+
+        <div class="row flex-wrap-reverse align-items-center mx-5 p-lg-0 py-5" style="background-color: #F5B333;" data-aos="fade-right">
+            <div class="col-xxl-4 col-lg-4 text-center">
+                <h3 class="py-2 text-white">Food & Beverage</h3>
+                <p class="pb-1 text-white">Food and beverages have long been a major and important part of
+                    Lofoten's identity</p>
+                    <button class="learn-more text-center pb-3"><a href="food.html">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span></a>
+                </button>
+            </div>
+            <div class="container col-xxl-4 col-lg-4 col-md-12 px-0 d-flex justify-content-center">
+                <img src="images/home/food.jpg" class="img-fluid" data-aos="flip-left">
+            </div>
+            <div class="container col-xxl-4 col-lg-4 px-0 d-none d-lg-block d-xl-block d-xxl-block">
+                <img src="images/home/lofotenfood.jpg" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row flex-wrap align-items-center mx-5 mb-3 p-lg-0 py-5" style="background-color: #ffa200;" data-aos="fade-left">
+            <div class="container col-xxl-4 col-lg-4 px-0 d-none d-lg-block d-xl-block d-xxl-block">
+                <img src="images/home/placetogo.jpg" class="img-fluid">
+            </div>
+            <div class="container col-xxl-4 col-lg-4 col-md-12 px-0 d-flex justify-content-center">
+                <img src="images/home/afternoonoflofoten.jpg" class="img-fluid" data-aos="flip-right">
+            </div>
+            <div class="col-xxl-4 col-lg-4 text-center">
+                <h3 class="py-2 text-white">Places to go</h3>
+                <p class="pb-1 text-white">Lofoten is not either or, but both and. Mountains and sea.
+                </p>
+                <button class="learn-more text-center pb-3"><a href="places.html">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span></a>
+            </button>
+            </div>
+        </div>
+
+        <div class="container-fluid d-flex pt-5 pb-5 row mx-0" id="bg-color">
+            <div class="col-sm-4 pt-5 d-flex justify-content-center">
+                <a href="index.html"><img src="images/footerlogo.png"></a>
+            </div>
+
+            <div class="col-sm-4 pt-5">
+                <h3 class="pt-3 d-flex justify-content-center">Contact us</h3>
+                <div class="d-flex justify-content-center">
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com.my/maps/place/New+Era+University+College/@2.9866042,101.7885382,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb841d3762c7:0x4dc97330d731c530!8m2!3d2.9865989!4d101.7927654"
+                                target="_blank" class="text-decoration-none text-black fs-4 p-2">New Era University</a>
+                        </li>
+                        <li>
+                            <a href="tel:0183597066" class="text-decoration-none text-black fs-4 p-2">+018-3597066</a>
+                        </li>
+                        <li>
+                            <a href="mailto:tabi1234@gmail.com"
+                                class="text-decoration-none text-black fs-4 p-2">Tabi1234@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-4 pt-5">
+                <h3 class="pt-2 d-flex justify-content-center">Social media</h3>
+                <div class=" d-flex justify-content-center">
+                    <ul style="list-style-type: none;" class="p-0">
+                        <li>
+                            <a href="https://www.instagram.com/visit_lofoten/?hl=en" target="_blank"
+                                class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-instagram px-1">
+                                </i>Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/visitlofoten/" target="_blank"
+                                class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-facebook px-1">
+                                </i>Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/amazinglofoten" target="_blank"
+                                class="text-black text-decoration-none fs-4 p-2"><i
+                                    class="fab fa-twitter px-1"></i>Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a href="#toppic" class="fixed-bottom m-3" id="backtotop"><button class="top-button">
+                <span class="box">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </span>
+            </button></a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

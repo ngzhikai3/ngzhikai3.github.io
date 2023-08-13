@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Accommodation</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/same.css" rel="stylesheet">
+    <link href="css/accommodation.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/lofotenlogo.jpg" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gothic A1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/91b33330fa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid gx-0" id="container" style="overflow-x: hidden">
+        <div class="container-fluid position-relative p-0" id="toppic">
+            <nav class="navbar navbar-expand-lg z-index-3 py-1 bg-secondary bg-opacity-50">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" width="100px" class="d-inline-block align-text-top">
+                    </a>
+
+                    <button class="navbar-toggler bg-light bg-opacity-75" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start d-xl-none d-lg-none w-100" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel"
+                        style="background-image: linear-gradient(to right, #FFFFFF, #5BBCBC);">
+                        <div class="offcanvas-header d-flex justify-content-end">
+                            <button type="button" class="btn-close fs-1 p-4" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex justify-content-center">
+                            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                        role="button" href="about.html">
+                                        About
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                        role="button" href="history.html">
+                                        History
+                                    </a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                        role="button" href="accommodation.html">
+                                        Accommodation
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2 d-flex justify-content-center" style="padding-left: 15px;">
+                                    <div class="btn-group">
+                                        <button class="btn text-black border-0" type="button">
+                                            <a class="text-decoration-none text-black fs-5"
+                                                href="activities.html">Activities</a>
+                                        </button>
+                                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black fs-5" href="kayak.html">Kayak</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-black fs-5" href="surf.html">Surf</a></li>
+                                            <li><a class="dropdown-item text-black fs-5"
+                                                    href="snorkeling.html">Snorkeling</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link ps-2 cursor-pointer align-items-center text-black fs-5 text-center"
+                                        role="button" href="food.html">
+                                        Food
+                                    </a>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-hover mx-2 d-flex justify-content-center" style="padding-left: 25px;">
+                                    <div class="btn-group">
+                                        <button class="btn text-black border-0" type="button">
+                                            <a class="text-decoration-none text-black fs-5"
+                                                href="places.html">Places</a>
+                                        </button>
+                                        <button type="button" class="btn dropdown-toggle dropdown-toggle-split border-0"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-black fs-5" href="trip.html">Plan Your
+                                                    Trip</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-black fs-5" href="vagan.html">Vagan</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-black fs-5"
+                                                    href="vestagoy.html">Vestvågøy</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-black fs-5"
+                                                    href="flakstad.html">Flakstad</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item d-lg-block m-3 pb-3 d-flex justify-content-center" style="padding-left: 25px;">
+                                    <a href="contact.html" class="text-white">
+                                        <button class="blue-button">
+                                                <span class="circle" aria-hidden="true">
+                                                    <span class="icon arrow"></span>
+                                                </span>
+                                                Contact us</button></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0">
+                        <ul class="navbar-nav navbar-nav-hover mx-auto">
+                            <li class="nav-item mx-2 hover">
+                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                    role="button" href="about.html">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav-item mx-2 hover">
+                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                    role="button" href="history.html">
+                                    History
+                                </a>
+                            </li>
+
+                            <li class="nav-item mx-2 hover">
+                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                    role="button" href="accommodation.html">
+                                    Accommodation
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown dropdown-hover mx-2 hover">
+                                <div class="btn-group">
+                                    <a class="text-decoration-none text-white" href="activities.html">
+                                    <button class="btn text-white border-0 pt-2" type="button">
+                                        Activities
+                                    </button></a>
+                                    <button type="button"
+                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="kayak.html">Kayak</a></li>
+                                        <li><a class="dropdown-item" href="surf.html">Surf</a></li>
+                                        <li><a class="dropdown-item" href="snorkeling.html">Snorkeling</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item mx-2 hover">
+                                <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center text-white"
+                                    role="button" href="food.html">
+                                    Food
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown dropdown-hover mx-2 hover">
+                                <div class="btn-group">
+                                    <button class="btn text-white border-0 pt-2" type="button">
+                                        <a class="text-decoration-none text-white" href="places.html">Places</a>
+                                    </button>
+                                    <button type="button"
+                                        class="btn dropdown-toggle dropdown-toggle-split text-white border-0"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="trip.html">Plan Your Trip</a></li>
+                                        <li><a class="dropdown-item" href="vagan.html">Vagan</a></li>
+                                        <li><a class="dropdown-item" href="vestagoy.html">Vestvågøy</a></li>
+                                        <li><a class="dropdown-item" href="flakstad.html">Flakstad</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav d-lg-block button-borders m-3">
+                            <li class="nav-item">
+                                <a href="contact.html" class="text-white">
+                                    <button class="blue-button">
+                                            <span class="circle" aria-hidden="true">
+                                                <span class="icon arrow"></span>
+                                            </span>
+                                            Contact us</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div
+                class="position-absolute top-50 start-50 translate-middle bg-secondary bg-opacity-50 p-3">
+                <h1>accommodation</h1>
+            </div>
+        </div>
+        <div class="box py-5" id="content">
+            <h3>Accommodation in Lofoten</h3>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide container " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner h-25">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/accommodation/cabin.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="text-light">The waterfront cabins (rorbu)</h3><a href="#cabins">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text text-light">Learn More</span>
+                            </button></a>
+                    </div>
+                </div>
+                <div class="carousel-item h-25" data-bs-interval="3000">
+                    <img src="images/accommodation/conference.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="text-light">Thon Hotel Svolvær</h3><a href="#hotel">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text text-light">Learn More</span>
+                            </button></a>
+                    </div>
+                </div>
+                <div class="carousel-item h-25" data-bs-interval="3000">
+                    <img src="images/accommodation/hotel.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="text-light">Scandic Vestfjord Lofoten</h3><a href="#scandic">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text text-light">Learn More</span>
+                            </button></a>
+                    </div>
+                </div>
+                <div class="carousel-item h-25">
+                    <img src="images/accommodation/rorbu.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-md-block">
+                        <h3 class="text-light">The Tide – Rorbu</h3><a href="#rorbu">
+                            <button class="learn-more">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text text-light">Learn More</span>
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="box1 " id="hotel">
+            <h3 class="py-4 text-center">Thon Hotel Svolvær</h3>
+
+            <div class="row p-3">
+                <div class="col-md-8" >
+                    <img src="images/accommodation/thonhotel.jpg" class="img-fluid">
+                </div>
+                <div class="col-4" >
+                    <img id="myImg" src="images/accommodation/thonhotel1.jpg" class="img-fluid mb-3">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <img id="myImg1" src="images/accommodation/thonhotel2.jpg" class="img-fluid">
+                    <div id="myModal1" class="modal">
+                        <span class="close1">&times;</span>
+                        <img class="modal-content" id="img02">
+                        <div id="caption1"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="box2 py-5">
+            <div class="content">
+                <h3 class="text-center">About</h3>
+                <p>Welcome to Thon Hotel Svolvær<br> – a brand new and modern hotel at the seaside
+                    in Svolvær.
+
+                    Thon Hotel Svolvær have large and comfortable rooms with a view, restaurant,
+                    bar, gym, sauna (autumn 2022), large, modern conference facilities and its
+                    own fish farm. Centrally located in Svolvær, everything is ready for a great
+                    stay be it for work or leisure.
+                </p>
+            </div>
+
+            <div class="picture1">
+                <img id="myImg2" src="images/accommodation/thonhotelabout.jpg" width="70%">
+                <div id="myModal2" class="modal">
+                    <span class="close2">&times;</span>
+                    <img class="modal-content" id="img03">
+                    <div id="caption2"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="button" id="center">
+            <button class="learn-more"><a href="https://www.thonhotels.no/hoteller/norge/lofoten/thon-hotel-svolvar/"
+                    target="_blank">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Book Now</span></a>
+            </button>
+        </div>
+
+        <div class="box3" id="cabins">
+            <h3 class="text-center py-5">The Waterfront Cabins (rorbu)</h3>
+            <div class="image">
+
+            </div>
+        </div>
+        <div class="row p-5">
+            <div class="col-4 ">
+                <img id="myImg3" src="images/accommodation/aboutcabins.jpg" width="80%">
+                <div id="myModal3" class="modal">
+                    <span class="close3">&times;</span>
+                    <img class="modal-content" id="img04">
+                    <div id="caption3"></div>
+
+                </div>
+            </div>
+
+            <div class="col-4">
+                <img id="myImg4" src="images/accommodation/aboutcabins1.jpg" width="80%">
+                <div id="myModal4" class="modal">
+                    <span class="close4">&times;</span>
+                    <img class="modal-content" id="img05">
+                    <div id="caption4"></div>
+
+                </div>
+            </div>
+            <div class="col-4" id="text">
+                <h3 class="text-center">About</h3>
+                <p>
+                    Each cabin has two bedrooms and can accommodate up to five people. One
+                    bedroom has a queen-size bed and one bedroom has a family bunk bed. The
+                    kitchen is fully equipped with all you need for cooking your own meals. The
+                    10 cabins are seaside with their own balcony over the seaside.
+                </p>
+            </div>
+        </div>
+    
+
+    <div class="button" id="center2">
+        <button class="learn-more"><a
+                href="https://visitlofoten.com/en/accommodation/cabins/the-waterfront-cabins-rorbu/" target="_blank">
+                <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Book Now</span></a>
+        </button>
+    </div>
+
+    <div class="box1" id="scandic">
+        <h3 class="p-5 text-center">Scandic Vestfjord Lofoten</h3>
+
+        <div class="picture p-3">
+
+
+            <div class="row p-2">
+                <div class="col-md-8">
+                    <img src="images/accommodation/scandicvestfjord.jpg" class="img-fluid">
+                </div>
+                <div class="col-4">
+                    <img id="myImg5" src="images/accommodation/scandicvestfjord1.jpg" class="img-fluid mb-3">
+                    <div id="myModal5" class="modal">
+                        <span class="close5">&times;</span>
+                        <img class="modal-content" id="img06">
+                        <div id="caption5"></div>
+
+                    </div>
+                    <img id="myImg6" src="images/accommodation/scandicvestfjord2.jpg" class="img-fluid">
+                    <div id="myModal6" class="modal">
+                        <span class="close6">&times;</span>
+                        <img class="modal-content" id="img07">
+                        <div id="caption6"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box2 py-5">
+        <div class="content">
+            <h3 class="text-center">About</h3>
+            <p>A destination hotel in beautiful surroundings for active people who want to enjoy a good night’s
+                sleep in a comfortable bed. Scandic Vestfjord Lofoten is located on the quay in the center of
+                Svolvær, with mountains and the sea as its closest neighbors.
+                Our hotel has 63 rooms, each with their own identity and charm. We have a gym with treadmills and free
+                weights. Our breakfast is served in our dining room which can accommodate over 100 people. In our lobby,
+                we have several comfortable seating areas where our guests can meet or just relax with a good book.
+            </p>
+        </div>
+
+        <div class="picture1">
+            <img id="myImg7" src="images/accommodation/scandicvestfjordabout.jpg" width="70%">
+            <div id="myModal7" class="modal">
+                <span class="close7">&times;</span>
+                <img class="modal-content" id="img08">
+                <div id="caption7"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="button" id="center1">
+        <button class="learn-more"><a href="https://www.scandichotels.no/" target="_blank">
+                <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Book Now</span></a>
+        </button>
+    </div>
+
+    <div class="box3" id="rorbu">
+        <h3 class="text-center py-5">The Tide – Rorbu</h3>
+        <div class="image1">
+
+        </div>
+    </div>
+    <div class="row p-5">
+        <div class="col-4 ">
+            <img id="myImg8" src="images/accommodation/thetide.jpg" width="80%">
+            <div id="myModal8" class="modal">
+                <span class="close8">&times;</span>
+                <img class="modal-content" id="img09">
+                <div id="caption8"></div>
+
+            </div>
+        </div>
+
+        <div class="col-4">
+            <img id="myImg9" src="images/accommodation/thetide1.jpg" width="80%">
+            <div id="myModal9" class="modal">
+                <span class="close9">&times;</span>
+                <img class="modal-content" id="img10">
+                <div id="caption9"></div>
+
+            </div>
+        </div>
+        <div class="col-4" id="text1">
+            <h3 class="text-center">About</h3>
+            <p>
+                Each cabin has two bedrooms and can accommodate up to five people. One
+                bedroom has a queen-size bed and one bedroom has a family bunk bed. The
+                kitchen is fully equipped with all you need for cooking your own meals. The
+                10 cabins are seaside with their own balcony over the seaside.
+            </p>
+        </div>
+    </div>
+
+    <div class="button" id="center3">
+        <button class="learn-more"><a href="https://www.statles-rorbusenter.no/" target="_blank">
+                <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Book Now</span></a>
+        </button>
+    </div>
+
+    <div class="container-fluid d-flex pt-5 pb-5 row mx-0" id="bg-color">
+        <div class="col-sm-4 pt-5 d-flex justify-content-center">
+            <a href="index.html"><img src="images/footerlogo.png"></a>
+        </div>
+
+        <div class="col-sm-4 pt-5">
+            <h3 class="pt-3 d-flex justify-content-center">Contact us</h3>
+            <div class="d-flex justify-content-center">
+                <ul>
+                    <li>
+                        <a href="https://www.google.com.my/maps/place/New+Era+University+College/@2.9866042,101.7885382,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb841d3762c7:0x4dc97330d731c530!8m2!3d2.9865989!4d101.7927654"
+                            target="_blank" class="text-decoration-none text-black fs-4 p-2">New Era University</a>
+                    </li>
+                    <li>
+                        <a href="tel:0183597066" class="text-decoration-none text-black fs-4 p-2">+018-3597066</a>
+                    </li>
+                    <li>
+                        <a href="mailto:tabi1234@gmail.com" class="text-decoration-none text-black fs-4 p-2">Tabi1234@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-4 pt-5">
+            <h3 class="pt-2 d-flex justify-content-center">Social media</h3>
+            <div class=" d-flex justify-content-center">
+                <ul style="list-style-type: none;" class="p-0">
+                    <li>
+                        <a href="https://www.instagram.com/visit_lofoten/?hl=en" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-instagram px-1">
+                            </i>Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/visitlofoten/" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i class="fab fa-facebook px-1">
+                            </i>Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/amazinglofoten" target="_blank"
+                            class="text-black text-decoration-none fs-4 p-2"><i
+                                class="fab fa-twitter px-1"></i>Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+        <a href="#toppic" class="fixed-bottom m-3" id="backtotop"><button class="top-button">
+            <span class="box">
+                <i class="fa-solid fa-arrow-up"></i>
+            </span>
+        </button></a>
+    </div>
+
+    <script src="js/same.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

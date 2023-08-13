@@ -1,0 +1,28 @@
+#toppic {
+    height: 600px;
+    background-image: url(../images/kayak/kayak.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1180px) {
+    #about {
+      width: 100% !important;
+    }
+
+    .kayak p{
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      margin: 0 !important;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .kayak p{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin: 0 !important;
+  }
+
+}

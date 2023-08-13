@@ -1,0 +1,58 @@
+#tips {
+  background-image: url(../images/home/traveltips.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-pic2 {
+  height: 300px;
+  background-image: url(../images/home/lofotenhistory.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+}
+
+#bg-video {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 500px;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1180px) and (min-width : 600px) {
+  #hmdays {
+    width: 60% !important;
+  }
+
+  #history {
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #hmdays {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    background-color: rgb(245, 248, 249, 0.9);
+  }
+
+  #history {
+    width: 100% !important;
+  }
+
+}

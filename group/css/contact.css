@@ -1,0 +1,218 @@
+#toppic {
+    height: 600px;
+    background-image: url(../images/eggum.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #F0F0F0;
+    font-family: Open Sans, sans-serif;
+    line-height: 1.5em;
+}
+
+#contact {
+    width: 500px;
+    margin: 2em auto;
+    background: white;
+    position: relative;
+}
+
+#contact article {
+    padding: 1em;
+}
+
+#contact h1 {
+    background: #5BBCBC;
+    font-family: Oswald, sans-serif;
+    font-size: 1.75em;
+    padding: 0.6em 0 0.6em 0.4em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0.06em 0 #424242;
+    position: relative;
+    text-align: center;
+}
+
+.contactbutton {
+    background: #5BBCBC;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.contactbutton:hover {
+    margin-top: 22px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+}
+
+.mail {
+    margin-top: 11px;
+    font-size: 15px;
+    display: inline-block;
+    border-top: 2em solid transparent;
+    border-left: 2.6em solid #ffffff;
+    height: 0;
+    width: 0;
+    position: relative;
+}
+
+.mail:before {
+    content: '';
+    top: -2.5em;
+    left: -2.95em;
+    display: block;
+    position: absolute;
+    border-top: 1.2em solid #ffffff;
+    border-left: 1.6em solid transparent;
+    border-right: 1.6em solid transparent;
+    border-bottom: 1em solid transparent;
+    font-size: 0.8em;
+}
+
+.mail::after {
+    display: block;
+    content: "";
+    position: absolute;
+    border-top: 2em solid transparent;
+    border-right: 2.6em solid #ffffff;
+    height: 0;
+    width: 0;
+    left: -2.18em;
+    bottom: 0;
+}
+
+#checkcontact {
+    position: absolute;
+    left: -9999px;
+}
+
+.contactform {
+    -webkit-transition: all linear 1s;
+    -moz-transition: all linear 1s;
+    -o-transition: all linear 1s;
+    -ms-transition: all linear 1s;
+    transition: all linear 1s;
+}
+
+#checkcontact:checked+.contactform {
+    max-height: 1000px;
+}
+
+.input_wrapper {
+    position: relative;
+}
+
+.textarea_wrapper textarea {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    background: white;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    color: #5E5E5E;
+}
+
+.input_wrapper input[type="text"] {
+    margin-top: 1em;
+    display: block;
+    width: 100%;
+    background: white;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    color: #5E5E5E;
+    text-indent: 15%;
+}
+
+.input_wrapper input[type="text"]:focus {
+    background: rgba(242, 56, 90, 0.05);
+    box-shadow: inset 2px 2px 5px 0 #DADADA;
+    outline: none;
+    text-indent: 0;
+}
+
+.input_wrapper label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #5BBCBC;
+    color: rgb(0, 0, 0);
+    font-family: Oswald, sans-serif;
+    box-sizing: border-box;
+    width: 15%;
+    text-align: center;
+    line-height: 2.8em;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+
+.input_wrapper input[type="text"]:focus+label {
+    left: 85%;
+}
+
+.textarea_wrapper textarea {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    min-height: 150px;
+    background: white;
+    border: 1px solid #DADADA;
+    box-shadow: 0 0 1px 0 #E4E4E4;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    color: #5E5E5E;
+}
+
+.textarea_wrapper textarea:focus {
+    background: rgba(242, 56, 90, 0.05);
+    box-shadow: inset 2px 2px 5px 0 #DADADA;
+    outline: none;
+}
+
+@media (max-width: 500px) {
+    #contact {
+        width: 100%;
+    }
+
+    .input_wrapper label {
+        line-height: 3.5em;
+        font-size: 0.8em;
+    }
+}
