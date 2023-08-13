@@ -66,3 +66,200 @@
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
+
+.box {
+  width: 50px;
+  height: auto;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+  font-weight: 900;
+  border-radius: 50%;
+}
+
+.box:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.box:hover {
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+.box:hover:before {
+  border-color: rgb(47, 7, 157);
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+  border-color: rgb(47, 7, 157);
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
+}
+
+.top-button {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+#backtotop {
+  width: 50px;
+}
+
+.contact1 i{
+  font-weight: 400 !important;
+}
+
+.hover {
+  --c: #5BBCBC; /* the color */
+  
+  color: #0000;
+  background: 
+    linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) no-repeat,
+    var(--_c,#0000);
+  -webkit-background-clip: text,padding-box,padding-box;
+          background-clip: text,padding-box,padding-box;
+  transition: 0s ,color .5s,background-color .5s;
+}
+.hover:hover {
+  color: #fff;
+  --_c: var(--c);
+  --_p: 100%;
+  transition: 0.5s,color 0s .5s,background-color 0s .5s;
+}
+
+.hover-text {
+  width: 100%;
+  height: 70px;
+  max-width: 70%;
+  margin: auto;
+}
+
+.hover-text div:hover {
+  transform: scale(1.2);
+}
+
+.next {
+  background-color: #d8d489;
+  background-image: linear-gradient(315deg, #d8cf89 0%, #c8a403 74%);
+  border: none;
+  z-index: 1;
+}
+
+.next:after {
+  position: absolute;
+  content: "";
+  width: 99.9%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background-color: #4dccc6;
+  background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+
+.next:hover {
+  color: #fff;
+}
+
+.next:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.next:active {
+  top: 2px;
+}
+
+.previous {
+  background-color: #89d8d3;
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  border: none;
+  z-index: 1;
+}
+
+.previous:after {
+  position: absolute;
+  content: "";
+  width: 99.9%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #4dccc6;
+  background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+
+.previous:hover {
+  color: #fff;
+}
+
+.previous:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.previous:active {
+  top: 2px;
+}
+
+.custom-btn {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+  outline: none;
+}
